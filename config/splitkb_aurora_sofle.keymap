@@ -123,7 +123,7 @@
                       &mo 0   &kp LCTRL  &kp LEFT_GUI  &mo 2   &kp SPACE    &kp RET  &mo 1   &kp RIGHT_ALT  &kp RIGHT_SHIFT  &mo 3
             >;
 
-            label = "Mac Lyr";
+            label = "DEF";
         };
 
         win_capslock_layer {
@@ -135,10 +135,10 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                             &kp PRINTSCREEN  &kp INSERT  &kp HOME  &kp PAGE_UP    &none  &kp BACKSPACE
-&trans  &trans  &trans  &trans  &trans  &trans                             &none            &kp DELETE  &kp END   &kp PAGE_DOWN  &none  &kp EQUAL
-&trans  &trans  &trans  &trans  &trans  &trans                             &kp LEFT         &kp DOWN    &kp UP    &kp RIGHT      &none  &kp BACKSLASH
-&trans  &trans  &trans  &trans  &trans  &kp RC(B)  &trans       &none      &none            &none       &none     &none          &none  &none
+&trans  &trans  &trans  &trans  &trans  &trans                             &kp PRINTSCREEN  &kp INSERT  &kp HOME  &kp PAGE_UP    &kp LEFT_BRACKET   &kp BACKSPACE
+&trans  &trans  &trans  &trans  &trans  &trans                             &none            &kp DELETE  &kp END   &kp PAGE_DOWN  &kp RIGHT_BRACKET  &kp EQUAL
+&trans  &trans  &trans  &trans  &trans  &trans                             &kp LEFT         &kp DOWN    &kp UP    &kp RIGHT      &none              &kp BACKSLASH
+&trans  &trans  &trans  &trans  &trans  &kp RC(B)  &trans       &none      &none            &none       &none     &none          &none              &none
                 &trans  &trans  &trans  &trans     &kp SPACE    &kp ENTER  &trans           &trans      &trans    &trans
             >;
 
@@ -146,7 +146,7 @@
                 <&inc_dec_kp LC(RIGHT) LC(LEFT)>,
                 <&inc_dec_kp PAGE_DOWN PAGE_UP>;
 
-            label = "Win Lck";
+            label = "EXTRA";
         };
 
         lower_layer {
@@ -165,7 +165,6 @@
                 &trans  &trans  &trans  &trans   &trans    &trans  &trans    &trans           &trans             &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
             label = "Lower";
         };
 
