@@ -120,29 +120,10 @@
 &kp TAB       &kp Q   &kp W   &kp E      &kp R         &kp T                         &kp Y   &kp U          &kp I            &kp O    &kp P     &kp MINUS
 &kp LEFT_ALT  &kp A   &kp S   &kp D      &kp F         &kp G                         &kp H   &kp J          &kp K            &kp L    &kp SEMI  &kp SINGLE_QUOTE
 &kp LSHFT     &kp Z   &kp X   &kp C      &kp V         &kp B   &none        &none    &kp N   &kp M          &kp COMMA        &kp DOT  &kp FSLH  &kp GRAVE
-                      &mo 0   &kp LCTRL  &kp LEFT_GUI  &mo 1   &kp SPACE    &kp RET  &mo 2   &kp RIGHT_ALT  &kp RIGHT_SHIFT  &mo 3
+                      &mo 0   &kp LCTRL  &kp LEFT_GUI  &mo 2   &kp SPACE    &kp RET  &mo 1   &kp RIGHT_ALT  &kp RIGHT_SHIFT  &mo 3
             >;
 
             label = "DEF";
-        };
-
-        fuction_layer {
-            // ------------------------------------------------------------------------------------------------------------
-            // | BTCLR | BT1 | BT2 |  BT3 |  BT4 |  BT5 |                   |      |       |       |      |       |       |
-            // |  F1   |  F2 |  F3 |  F4  |  F5  |  F6  |                   |  F7  |  F8   |  F9   |  F10 |  F11  |  F12  |
-            // |   `   |  !  |  @  |  #   |  $   |  %   |                   |  ^   |  &    |  *    |  (   |   )   |   ~   |
-            // |       |     |     |      |      |      |        |  |       |      |  _    |  +    |  {   |   }   |  "|"  |
-            //               |     |      |      |      |        |  |       |      |       |       |      |
-
-            bindings = <
-&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                     &none     &kp K_VOLUME_UP  &kp K_VOLUME_DOWN  &kp K_MUTE  &kp K_NEXT  &kp DELETE
-&trans  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10                    &none     &none            &none              &none       &none       &none
-&trans  &none   &none   &none   &none   &none                      &kp LEFT  &kp DOWN         &kp UP             &kp RIGHT   &trans      &trans
-&trans  &none   &none   &none   &none   &none    &trans    &trans  &trans    &trans           &trans             &trans      &trans      &trans
-                &trans  &trans  &trans  &trans   &trans    &trans  &trans    &trans           &trans             &trans
-            >;
-
-            label = "FUNC";
         };
 
         win_capslock_layer {
@@ -162,6 +143,25 @@
             >;
 
             label = "EXTRA";
+        };
+
+        fuction_layer {
+            // ------------------------------------------------------------------------------------------------------------
+            // | BTCLR | BT1 | BT2 |  BT3 |  BT4 |  BT5 |                   |      |       |       |      |       |       |
+            // |  F1   |  F2 |  F3 |  F4  |  F5  |  F6  |                   |  F7  |  F8   |  F9   |  F10 |  F11  |  F12  |
+            // |   `   |  !  |  @  |  #   |  $   |  %   |                   |  ^   |  &    |  *    |  (   |   )   |   ~   |
+            // |       |     |     |      |      |      |        |  |       |      |  _    |  +    |  {   |   }   |  "|"  |
+            //               |     |      |      |      |        |  |       |      |       |       |      |
+
+            bindings = <
+&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                     &none     &kp K_VOLUME_UP  &kp K_VOLUME_DOWN  &kp K_MUTE  &kp K_NEXT  &kp DELETE
+&trans  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10                    &none     &none            &none              &none       &none       &none
+&trans  &none   &none   &none   &none   &none                      &kp LEFT  &kp DOWN         &kp UP             &kp RIGHT   &trans      &trans
+&trans  &none   &none   &none   &none   &none    &trans    &trans  &trans    &trans           &trans             &trans      &trans      &trans
+                &trans  &trans  &trans  &trans   &trans    &trans  &trans    &trans           &trans             &trans
+            >;
+
+            label = "FUNC";
         };
 
         BT_layer {
