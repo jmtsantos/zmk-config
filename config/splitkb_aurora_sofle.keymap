@@ -142,7 +142,7 @@
                 &trans  &trans  &trans  &trans   &trans    &trans  &trans    &trans           &trans             &trans
             >;
 
-            label = "func";
+            label = "FUNC";
         };
 
         win_capslock_layer {
