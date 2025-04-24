@@ -133,11 +133,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&trans  &trans  &trans    &trans    &trans     &kp ESC                      &kp ESC  &trans  &trans  &trans  &trans  &kp DELETE
-&trans  &trans  &kp HOME  &kp UP    &kp END    &kp PG_UP                    &none    &none   &none   &none   &none   &none
-&trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &kp PG_DN                    &none    &none   &none   &none   &none   &none
-&trans  &none   &none     &none     &trans     &trans     &mo BT    &trans  &trans   &none   &none   &none   &none   &trans
-                &trans    &trans    &trans     &trans     &trans    &mo BT  &trans   &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                             &kp PRINTSCREEN  &kp INSERT  &kp HOME  &kp PAGE_UP    &none  &kp BACKSPACE
+&trans  &trans  &trans  &trans  &trans  &trans                             &none            &kp DELETE  &kp END   &kp PAGE_DOWN  &none  &kp EQUAL
+&trans  &trans  &trans  &trans  &trans  &trans                             &kp LEFT         &kp UP      &kp DOWN  &kp RIGHT      &none  &kp BACKSLASH
+&trans  &trans  &trans  &trans  &trans  &kp RC(B)  &trans       &none      &none            &none       &none     &none          &none  &none
+                &trans  &trans  &trans  &trans     &kp SPACE    &kp ENTER  &trans           &trans      &trans    &trans
             >;
 
             sensor-bindings =
