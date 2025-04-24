@@ -135,7 +135,7 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                             &kp PRINTSCREEN  &kp INSERT  &kp HOME  &kp PAGE_UP    &kp LEFT_BRACKET   &kp BACKSPACE
+&trans  &trans  &trans  &trans  &trans  &trans                             &kp PRINTSCREEN  &kp INSERT  &kp HOME  &kp PAGE_UP    &kp LEFT_BRACKET   &kp DELETE
 &trans  &trans  &trans  &trans  &trans  &trans                             &none            &kp DELETE  &kp END   &kp PAGE_DOWN  &kp RIGHT_BRACKET  &kp EQUAL
 &trans  &trans  &trans  &trans  &trans  &trans                             &kp LEFT         &kp DOWN    &kp UP    &kp RIGHT      &none              &kp BACKSLASH
 &trans  &trans  &trans  &trans  &trans  &kp RC(B)  &trans       &none      &none            &none       &none     &none          &none              &none
