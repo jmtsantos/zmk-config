@@ -154,11 +154,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&trans       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                             &kp PRINTSCREEN  &kp INSERT  &kp HOME  &kp PAGE_UP    &kp LEFT_BRACKET   &kp DELETE
-&kp LS(TAB)  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10                            &none            &kp DELETE  &kp END   &kp PAGE_DOWN  &kp RIGHT_BRACKET  &kp EQUAL
-&trans       &trans  &trans  &trans  &trans  &trans                             &kp LEFT         &kp DOWN    &kp UP    &kp RIGHT      &none              &kp BACKSLASH
-&trans       &trans  &trans  &trans  &trans  &kp RC(B)  &trans       &none      &none            &none       &none     &none          &none              &none
-                     &trans  &trans  &trans  &trans     &kp SPACE    &kp ENTER  &trans           &trans      &trans    &trans
+&trans       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                                    &kp PRINTSCREEN    &kp INSERT  &kp HOME  &kp PAGE_UP    &none  &kp DELETE
+&kp LS(TAB)  &none   &none   &none   &none   &kp LEFT_BRACKET                          &kp RIGHT_BRACKET  &kp DELETE  &kp END   &kp PAGE_DOWN  &none  &kp EQUAL
+&trans       &trans  &trans  &trans  &trans  &trans                                    &kp LEFT           &kp DOWN    &kp UP    &kp RIGHT      &none  &kp BACKSLASH
+&trans       &trans  &trans  &trans  &trans  &kp RC(B)         &trans       &none      &none              &none       &none     &none          &none  &none
+                     &trans  &trans  &trans  &trans            &kp SPACE    &kp ENTER  &trans             &trans      &trans    &trans
             >;
 
             label = "EXTRA";
